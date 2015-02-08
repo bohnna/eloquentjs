@@ -1,2 +1,2 @@
 # eloquentjs
-Eloquent JS practices
+Eloquent JS practice
