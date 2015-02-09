@@ -1,4 +1,14 @@
-// Your code here.
+function arrayToList(arr) {
+	list = {}
+		for (i = 0; i <= arr.length - 1; i++) {
+			list.push(value: arr.shift(), rest: arr.slice(i))
+		}
+		return list;
+}
+
+function listToArray() {
+
+}
 
 console.log(arrayToList([10, 20]));
 // → {value: 10, rest: {value: 20, rest: null}}
